@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>kv</title>
+    <style>
+           /*  resim */
+           body {margin:0;background: linear-gradient(to right,#49eec1,#8189e0,#9329c3); }
+          .resim div img {width: 100%;  height: 100%; margin-bottom:20px; border-radius: 15px; box-shadow: 0 0 25px #f24c4c;transition: transform .5s;}
+          .resim:hover div img {transform: scale(0.8) translateY(10px); }
+          /*  form*/
+          .center{display:flex;align-items:baseline;margin-left:200px;margin-top:15px;}
+          .main{width:80%;height:200vh;float:right;}
+          .user{flex-direction:column;background-color:#f8f3f3;width:320px;height:500px;border-radius:22px;}
+          .input{align-self:center;width:250px;height:40px;border-radius:50px;border:none;background:#e0dada;margin:10px 0;padding:0 15px;outline:none;font-size:0.9rem;}
+          /*  buton*/
+          .btn{border:2px solid green;background-color:transparent;
+          border-radius:0.6em;color:red;cursor:pointer;display:flex;align-self:center;font-size:15px;
+          margin:20px;padding:1.2em 2.8em;text-align:center;
+          font-family:'Montserrat',sans-serif;font-weight:800;}    
+          .smedya{float:right;margin:3px;cursor:pointer;margin-right: 15px;} 
+    </style>
+</head>
+<body>
+    <!-- smedya -->
+    <div class="smedya">
+    <a href="https:www.instagram.com"><img src="https://img.icons8.com/nolan/64/instagram-new.png"/></a>
+    <a href="https:www.facebook.com"><img src="https://img.icons8.com/nolan/64/facebook-new.png"/></a>
+    <a href="https:www.tumblr.com"><img src="https://img.icons8.com/nolan/64/tumblr.png"/></a>
+    </div>
+    <!--resim-->
+    <div class="main center">
+        <div class="user center">
+            <div>
+                <div class="resim">
+                    <div><img src="bk.gif" alt=""></div>
+                </div>
+            </div>
+            <!--form-->
+            <input type="text" name="" id="" class="input" placeholder="username" />
+            <input type="email" name="" id="" class="input" placeholder="e-mail" />
+            <input type="password" name="" class="input" placeholder="password" />
+            <!--buton-->
+            <button class="btn ">SİGN UP</button>
+        </div>
+    </div>
+</body>
+</html>
